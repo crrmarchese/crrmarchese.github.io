@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Catherine Marchese Personal Portfolio</title>
+	<title>Contact Catherine Marchese</title>
 	<link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
 	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -35,7 +35,7 @@
 						<div class="collapse navbar-collapse" id="navbarCollapse">
 							<ul class="nav navbar-nav ms-auto">
 							<li class="nav-item text-uppercase">
-								<a class="nav-link active" aria-current="page" href="index.html">About</a>
+								<a class="nav-link" aria-current="page" href="index.html">About</a>
 							</li>
 							<li class="nav-item text-uppercase">
 								<a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -52,29 +52,36 @@
 	</header>
 
 	<!-- Main content -->
-	<main id="main-about">
+	<main id="main-contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h1 class="text-center">About Me</h1>
+					<h1 class="text-center">Contact</h1>
 				</div>	
 			</div>
+			<!-- Form -->
 			<div class="row">
-				<div class="col-12">
-					<img src="assets/images/who_i_am_crop.jpg" class="img-fluid img-thumbnail mb-4 me-4" alt="Female worker looking at computer screen" style="float:left;max-width:25%;">
-					<section id="Summary">
-						<h2>Summary</h2>
-						<p>Motivated and detail-oriented professional front-end web developer with several years of experience in the Marketing and Adverstising industries. Diversified skill set covering technical/administrative support, project management and web development. Finely-tuned analytical skills with a dedication to expanding subject knowledge and workplace competencies through continuing research and training.</p>
-					</section>
-					<section id="what-i-do">
-						<h2 class="mt-5">What I Do</h2>
-					<p>I have been working with WordPress for the past 6 years and I'm looking for a new challenge. I am an analytical, fast learner with the desire to learn and apply new skills. I want my work to matter, and continually improve the work that I do. I am currently enrolled in <a href="https://bootcamp.unh.edu/" target="_blank" >UNH's Coding Boot Camp</a> working towards a Full Stack Developer certificate.</p>
-					</section>	
+				<div class="col-lg-7 col-sm-6">
+					<form id="form-contact">
+						<div class="mb-4">
+						  <label for="name" class="form-label">Name</label>
+						  <input type="text" class="form-control" id="name" aria-label="name" placeholder="Name">
+						</div>
+						<div class="mb-4">
+						  <label for="email" class="form-label">Email</label>
+						  <input type="email" class="form-control" id="email" placeholder="Email" aria-label="email">
+						</div>
+						<div class="mb-4">
+							<label for="message" class="form-label">Message</label>
+						  	<input type="text" class="form-control" id="message" placeholder="Message" aria-label="message">
+						</div>
+						<button type="submit" class="btn btn--custom-color">Submit</button>
+					  </form>
 				</div>
 			</div>
 		</div>
 	</main>
-
+	
 	<!-- Footer -->
 	<footer class="footer mt-auto py-3 bg-light">
 		<div class="container">
@@ -88,12 +95,18 @@
 			</div>
 		</div>
 	</footer>
+	
+	<!--Jquery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 
+	<!--Bootstrap-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
 		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-	<script src="js/customjs.js"></script> 
+
+	<!-- Custom JS-->
+	<script src="js/customjs.js"></script>
+	
 </body>
 
 </html>

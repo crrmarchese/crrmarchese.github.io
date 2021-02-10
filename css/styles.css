@@ -1,0 +1,133 @@
+/*================= GLOBAL ==================*/
+:root {
+	--main-accent-color: #cf566a;	
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin-top: 1.25rem;
+	font-weight: 400;
+}
+
+a {
+	color :var(--bs-dark-gray);
+}
+
+a:hover {
+	 color: #c94258;
+}
+
+.btn {
+	text-transform: uppercase;
+	font-size: smaller; 
+	letter-spacing: .125rem;;
+}
+.btn:hover, .filter-button-group .btn-check:active+.btn-light, .btn-check:checked+.btn-light, .btn-light.active, .btn-light:active, .show>.btn-light.dropdown-toggle {
+	color: var(--bs-white);
+	background-color: #c94258;
+}
+
+h1, .navbar-brand {
+    text-transform: uppercase;
+	letter-spacing: .25rem;
+}
+
+h1 {
+	margin-top: 1.5rem;
+	margin-bottom: 2.75rem;
+}
+
+p {
+    color: #616265;
+    letter-spacing: 1px;
+}
+
+main {
+	margin-bottom: 5rem;
+}
+
+/*================= HEADER ==================*/
+
+/*----------------- Navigation --------------*/
+.navbar-brand.h1 {
+	font-weight: 700;
+}
+
+.navbar-toggler {
+	border-color: rgba(0,0,0,.5);
+}
+
+.nav .nav-item {
+	padding: 1.25rem 2.5rem;
+	letter-spacing: .0625rem;
+}
+
+.nav .nav-item .nav-link.active, .active {
+    color: var(--main-accent-color);
+}
+
+/*================= CONTENT ==================*/
+
+/*----------------- Portfolio --------------*/
+.card-subtitle {
+	font-size: smaller;
+	text-transform: uppercase;
+}
+.btn-group-vertical.filter-button-group button {
+	margin-bottom: 1rem;
+	padding: 1.25rem;
+}
+
+/*----------------- Form --------------*/
+.form-label {
+	font-weight: 700;
+}
+.form-control {
+	line-height: 2.5;
+}
+input[placeholder] {
+	font-size: smaller;
+}
+.btn--custom-color {
+	color: var(--bs-white);
+    background-color: var(--main-accent-color);
+    border-color: var(--main-accent-color);
+}
+
+/*================= FOOTER ==================*/
+footer .list-group-horizontal .list-group-item {
+	background-color: transparent;
+	border: none;
+}
+
+
+/*================= MEDIA QUERIES ==================*/
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Catherine Marchese Personal Portfolio</title>
+	<link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<!-- Google Fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/45e97f819a.js" crossorigin="anonymous"></script>
+	<!-- Custom styles -->	
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<!-- Logo and Nav -->
+	<header>
+		<div class="container primary-menu">
+			<div class="row">
+				<div class="col-12">
+					<div class="brand-logo"><a href="index.html"><img src="assets/images/main-logo.svg" alt="CM logo" class="img__logo img-fluid"></a></div>
+				</div>
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light mt-3 mb-4 p-2">
+						<span class="navbar-brand mb-1 h1 ps-2">Cathy Marchese</span>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarCollapse">
+							<ul class="nav navbar-nav ms-auto">
+							<li class="nav-item text-uppercase">
+								<a class="nav-link" aria-current="page" href="index.html">About</a>
+							</li>
+							<li class="nav-item text-uppercase">
+								<a class="nav-link" href="portfolio.html">Portfolio</a>
+							</li>
+							<li class="nav-item text-uppercase">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+							</ul>
+						</div>
+					</nav>	
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Main content -->
+	<main id="main-portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center">Portfolio</h1>
+				</div>		
+			</div>
+			<!-- Filter for SM & Up-->
+			<div class="row mt-2 mb-5 text-center">
+				<div class="col-12">
+					<div class="btn-group filter-button-group d-none d-sm-block" role="group" aria-label="portfolio-filter">
+						<button type="button" class="btn btn-light" data-filter="*">Show all</button>
+						<button type="button" class="btn btn-light" data-filter=".website">Website</button>
+						<button type="button" class="btn btn-light" data-filter=".creative">Creative</button>
+						<button type="button" class="btn btn-light" data-filter=".project">Project</button>
+						<button type="button" class="btn btn-light" data-filter=".floral">Floral</button>
+					</div>
+				</div>		
+			</div> 
+			<!-- Filter for XS-->
+			<div class="row mt-2 mb-5 text-center">
+				<div class="col-12">
+					<div class="btn-group-vertical filter-button-group d-block d-sm-none" role="group" aria-label="portfolio-filter">
+						<button type="button" class="btn btn-light" data-filter="*">Show all</button>
+						<button type="button" class="btn btn-light" data-filter=".website">Website</button>
+						<button type="button" class="btn btn-light" data-filter=".creative">Creative</button>
+						<button type="button" class="btn btn-light" data-filter=".project">Project</button>
+						<button type="button" class="btn btn-light" data-filter=".floral">Floral</button>
+					</div>
+				</div>		
+			</div> 
+			<!-- Cards -->  
+			<div class="row grid gy-4">
+				<div class="col-xl-3 col-md-6 col-lg-4 project">
+					<div class="card">
+						<img src="assets/images/four-and-six-calculator.jpg" class="card-img-top img-fluid" alt="Four button and six button colorful calculator">
+						<div class="card-body">
+							<h5 class="card-title">Calculators for Empower Assessment Testing</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Project</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 website">
+					<div class="card">
+						<img src="assets/images/empower-classroom-website.jpg" class="card-img-top img-fluid" alt="Empower Classroom home page">
+						<div class="card-body">
+							<h5 class="card-title">Empower Classroom Portal</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Website</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 floral">
+					<div class="card">
+						<img src="assets/images/small-poinsettia-basket.jpg" class="card-img-top img-fluid" alt="Small Christmas basket with silk red poinsettias">
+						<div class="card-body">
+							<h5 class="card-title">Christmas Poinsettias</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Floral</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 creative">
+					<div class="card">
+						<img src="assets/images/florida-license-plate.jpg" class="card-img-top img-fluid" alt="Illustrated Florida license plate">
+						<div class="card-body">
+							<h5 class="card-title">License Plate</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Creative</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 website">
+					<div class="card">
+						<img src="assets/images/empower-website.jpg" class="card-img-top img-fluid" alt="Empower website">
+						<div class="card-body">
+							<h5 class="card-title">Empower Assessments</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Website</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 floral">
+					<div class="card">
+						<img src="assets/images/small-orange-basket.jpg" class="card-img-top img-fluid" alt="Small orange basket with orange and pink silk flowers">
+						<div class="card-body">
+							<h5 class="card-title">Spring Basket</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Floral</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 website">
+					<div class="card">
+						<img src="assets/images/FSAA-training-website.jpg" class="card-img-top img-fluid" alt="FSAA Training website">
+						<div class="card-body">
+							<h5 class="card-title">FSAA</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Website</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 creative">
+					<div class="card">
+						<img src="assets/images/404-bg-blue.jpg" class="card-img-top img-fluid" alt="FSAA Training website">
+						<div class="card-body">
+							<h5 class="card-title">404 Page Design</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Creative</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 website">
+					<div class="card">
+						<img src="assets/images/OK-website.jpg" class="card-img-top img-fluid" alt="Oklahoma website">
+						<div class="card-body">
+							<h5 class="card-title">Oklahoma</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Website</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 project">
+					<div class="card">
+						<img src="assets/images/NTS-eblasts.jpg" class="card-img-top img-fluid" alt="NTS eblast">
+						<div class="card-body">
+							<h5 class="card-title">NTS Eblasts</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Project</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 website">
+					<div class="card">
+						<img src="assets/images/NM-website.jpg" class="card-img-top img-fluid" alt="New Mexico website">
+						<div class="card-body">
+							<h5 class="card-title">New Mexico SBA website</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Website</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 creative">
+					<div class="card">
+						<img src="assets/images/cat-in-the-hat.jpg" class="card-img-top img-fluid" alt="Cat in the Hat illustration done with various fonts">
+						<div class="card-body">
+							<h5 class="card-title">Cat in the Hat</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Creative</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 website">
+					<div class="card">
+						<img src="assets/images/MD-website.jpg" class="card-img-top img-fluid" alt="Maryland HSA website">
+						<div class="card-body">
+							<h5 class="card-title">Maryland HSA</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Website</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 project">
+					<div class="card">
+						<img src="assets/images/empower-classroom-v1.jpg" class="card-img-top img-fluid" alt="Empower Classroom landing page mockup">
+						<div class="card-body">
+							<h5 class="card-title">Empower Classroom Mockup</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Project</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 floral">
+					<div class="card">
+						<img src="assets/images/fall-foliage-basket.jpg" class="card-img-top img-fluid" alt="Fall colored silk flowers in shallow basket">
+						<div class="card-body">
+							<h5 class="card-title">Fall Basket</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Floral</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 creative">
+					<div class="card">
+						<img src="assets/images/stained-glass.jpg" class="card-img-top img-fluid" alt="Illustration of a stained glass window">
+						<div class="card-body">
+							<h5 class="card-title">Stained Glass</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Creative</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 website">
+					<div class="card">
+						<img src="assets/images/chartersearch-website.jpg" class="card-img-top img-fluid" alt="Chartersearch website">
+						<div class="card-body">
+							<h5 class="card-title">Chartersearch</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Website</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 project">
+					<div class="card">
+						<img src="assets/images/js-shopping-list.jpg" class="card-img-top img-fluid" alt="Shopping list with checkboxes">
+						<div class="card-body">
+							<h5 class="card-title">Shopping List</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Project</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 creative">
+					<div class="card">
+						<img src="assets/images/404-bg-red.jpg" class="card-img-top img-fluid" alt="FSAA Training website">
+						<div class="card-body">
+							<h5 class="card-title">404 Page Design</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Creative</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-4 website">
+					<div class="card">
+						<img src="assets/images/NGRID-energy-world.jpg" class="card-img-top img-fluid" alt="National Grid Energy World">
+						<div class="card-body">
+							<h5 class="card-title">National Grid Energy World</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Website</h6>
+						</div>
+					</div>
+				</div>				
+				<div class="col-xl-3 col-md-6 col-lg-4 project">
+					<div class="card">
+						<img src="assets/images/js-flex-panels.jpg" class="card-img-top img-fluid" alt="Flexible panel gallery with JavaScript">
+						<div class="card-body">
+							<h5 class="card-title">Flex Panel Gallery</h5>
+							<h6 class="card-subtitle mb-2 text-muted mt-1">Project</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	 
+	<!-- Footer -->
+	<footer class="footer mt-auto py-3 bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ul class="list-group list-group-horizontal footer-social">
+						<li class="list-group-item"><a href="https://www.linkedin.com/in/catherinemarchese/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+						<li class="list-group-item"><a href="https://github.com/crrmarchese" title="GitHub" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!--Jquery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+	<!--Bootstrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+
+	<!--- Isotope-->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+	<!-- Custom JS-->
+	<script src="js/customjs.js"></script>
+
+	<script>
+		// init Isotope
+		var $grid = $('.grid').isotope({
+  			// options
+		});
+		// filter items on button click
+		$('.filter-button-group').on( 'click', 'button', function() {
+  			var filterValue = $(this).attr('data-filter');
+  			$grid.isotope({ filter: filterValue });
+		});
+	</script>
+
+</body>
+
+</html>
