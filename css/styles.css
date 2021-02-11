@@ -77,6 +77,12 @@ main {
 	margin-bottom: 1rem;
 	padding: 1.25rem;
 }
+.git-icons a {
+	color: var(--main-accent-color);
+}
+.git-icons a:hover {
+	color:  #c94258;
+}
 
 /*----------------- Form --------------*/
 .form-label {
