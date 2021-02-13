@@ -78,8 +78,8 @@ main {
 	padding: 1.25rem;
 }
 .git-icons a {
-	color: var(--main-accent-color);
-}
+	color: #6c757d;
+} 
 .git-icons a:hover {
 	color:  #c94258;
 }
